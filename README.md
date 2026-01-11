@@ -1,3 +1,4 @@
+```markdown
 # Personalized Nutrition Framework for Endurance Exercise
 
 This repository contains the official implementation of the data-driven framework described in the paper: **"Data-Augmented Machine Learning Validates Personalized Carbohydrate-Protein Supplement for Endurance Exercisers"**.
@@ -34,22 +35,23 @@ The project is organized into the following directories:
 ## Getting Started
 
 ### Prerequisites
-The code requires Python 3.8+ and the following libraries:
-* pandas
-* numpy
-* xgboost
-* torch (PyTorch)
-* scikit-learn
-* matplotlib
-* seaborn
-* graphviz (and python-pydot)
+The code requires **Python 3.8+**.
+
+You can install all necessary dependencies using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+
+```
 
 ### Usage Workflow
 
 To replicate the framework or use it for new predictions, follow this sequence:
 
 #### 1. Data Augmentation (RR-GAN)
-Navigate to the `RR-GAN` folder and run the script to expand the dataset.
+
+Navigate to the root directory and run the script to expand the dataset.
+
 ```bash
 python RR-GAN/data_augmentation_rrgan.py
 
@@ -75,8 +77,10 @@ To generate an optimal nutritional strategy for a new athlete:
 4. Run the final module in the `modeling/performance_prediction_xgboost.ipynb` notebook.
 5. The optimal CHO and PRO intake rates will be printed and saved to `output/optimal_recommendation_result.txt`.
 
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+```
+
+```
