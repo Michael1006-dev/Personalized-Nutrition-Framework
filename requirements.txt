@@ -1,0 +1,16 @@
+# Environment Configuration for Personalized Nutrition Framework
+# Generated Date: 2026-01-11
+# Python Version: 3.10.16
+# Platform: Windows-10-10.0.26220-SP0
+
+# Core Dependencies
+pandas==2.2.3
+numpy==1.26.4
+xgboost==1.7.6
+torch==2.7.0+cu126
+scikit-learn==1.4.2
+matplotlib==3.10.0
+seaborn==0.13.2
+pydot==4.0.1
+graphviz==0.21
+openpyxl==3.1.5
